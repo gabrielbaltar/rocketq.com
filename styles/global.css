@@ -56,3 +56,48 @@ body, button, input, textarea {
     border-width: 0px;
 }
 
+/* ------- Input and Buttons ------- */
+
+input, button, .button {
+    border-radius: 0.5rem;
+    height: 5rem;
+}
+
+button, .button {
+    font-family: 'Poppins';
+    font-weight: 500;
+    line-height: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--blue);
+    color: var(--white);
+    cursor: pointer;
+    transition: 0.2s;
+    gap: 0.65rem;
+}
+
+button:hover, .button:hover {
+    filter: brightness(1.2);
+}
+
+button > img, 
+.button > img {
+    color: var(--white);
+    width: 2rem;
+}
+
+button.outlined, .button.outlined{
+    background-color: var(--white);
+    border: 2px solid var(--blue);
+    color: var(--blue);
+}
+
+.content header {
+    width: 80%;
+    margin: 2.187rem auto;
+}
+
+.content header img {
+    width: 167px;
+}

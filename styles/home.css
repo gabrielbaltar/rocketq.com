@@ -41,5 +41,10 @@ input {
     border: 0.2rem solid var(--grey-blue);
     padding: 0 1.6rem;
     height: 4rem;
-    /* border-radius: 8px; */
+    border-radius: 0.5rem;
+}
+
+input, button, .button{
+    width: 100%;
+    margin-bottom: 1.125rem;
 }
