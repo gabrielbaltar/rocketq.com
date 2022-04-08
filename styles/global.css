@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+}
+
+html {
+    --black: #0D114F;
+    --white: #fafafa;
+    --light-blue: #E0ECFF;
+    --blue: #3485FF;
+    --red: #E83F5B;
+    --background: #FBFCFF;
+    --overlay: #040911;
+    --icons-details: #A5B0C1;
+    
+    /* Cores de verde */
+    --grey-dark: #4D5E77;
+    --grey-blue: #A1B2CD;
+    --grey-light: #E5EAF1;
+    --grey-medium: #D3D9E2;
+
+    /* Cores do efeito hover */
+
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    background: var(--background);
+}
+
+body, button, input, textarea {
+    /* Intervalo de tamanho*/
+    font-size: clamp(14px, 1.6rem, 2vw);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sr-only {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    padding: 0px;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0px;
+}
+
