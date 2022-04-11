@@ -35,7 +35,6 @@ main h2 {
     font-weight: 700;
     font-size: clamp(20px, 5vw, 2.8rem);
     margin-bottom: 2.4rem;
-    text-align: center;
 }
 
 input {
@@ -69,4 +68,28 @@ input, button, .button{
     background: var(--grey-blue);
     width: 100%;
     height: 1px;
+}
+
+/* Create balls */
+
+.ball {
+    background: var(--grey-blue);
+    opacity: 10%;
+    position: fixed;
+    height: 13.25rem;
+    width: 13.25rem;
+    clip-path: circle();
+   
+}
+
+.ball.top {
+    height: 39.562rem;
+    width: 39.562rem;
+    right: -11.25rem;
+    top: -11.25rem;
+}
+
+.ball, .button {
+    right: 3.5rem;
+    bottom: -8rem;
 }
