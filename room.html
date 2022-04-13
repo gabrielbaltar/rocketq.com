@@ -36,8 +36,39 @@
                </div>
            </header>
 
-           <script>
-           </script>
+           <main>
+               <section id="question-forms">
+                   <h2>Faça sua pergunta</h2>
+                   <fieldset>
+                    <form action="question">
+                        <label for="question" class="sr-only" for-id="question">O que você quer perguntar?</label>
+                        <textarea id="question" name="question" placeholder="O que você quer perguntar?"></textarea>
+
+                        <footer>
+                            <div>
+                                <img src="./assets/Icon-lock-24dp.svg" alt="Cadeado">
+                                Essa pergunta é anônima
+                            </div>
+                            <button>Enviar</button>
+                        </footer>
+                    </form>
+                   </fieldset>
+               </section>
+
+               <section id="questions">
+                <h2 class="sr-only">Perguntas da comunidade </h2>
+
+                <div class="questions">
+
+                    <div class="question-wrapper">
+                        <div class="question-content"></div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                </div>
+               </section>
+           </main>
         </div>
         
     </body>

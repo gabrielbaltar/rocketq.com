@@ -1,8 +1,12 @@
+.content {
+    max-width: min(112rem, 90%);
+}
+
 #room header {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 #room header .buttons {
@@ -28,3 +32,59 @@
     width: 2rem;
     height: 2rem;
 }
+
+/* Question form */
+
+#question-forms h2 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: var(--black);
+    font-size: 2.5rem;
+    margin-bottom: 2.4rem;
+    line-height: 2.625rem;
+}
+
+#question-forms form {
+    border: 0.2rem solid var(--grey-blue);
+    padding: 1rem;
+    border-radius: 0 0.5rem 0.5rem 0.5rem;
+}
+
+#question-forms textarea {
+    background: transparent;
+    resize: none;
+    width: 100%;
+    outline: none; 
+}
+
+#question-forms form textarea::placeholder {
+    color: var(--grey-blue);
+}
+
+#question-forms footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#question-forms footer button{
+    width: 8rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+}
+
+#question-forms form footer > div {
+    color: var(--icons-details);
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+#question-forms form footer div img {
+    margin: 0px;
+}
+
+
+

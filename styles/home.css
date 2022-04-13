@@ -12,7 +12,7 @@
 
 #bg {
     grid-area: left;
-    background-image: url("/assets/home-bg-img.png");
+    background-image: url("../assets/home-bg-img.png");
     background-repeat: no-repeat;
     height: 641px;
     background-size: contain;
