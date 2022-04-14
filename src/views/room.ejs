@@ -4,15 +4,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- View Port -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocketq - Perguntas e Respostas</title>
+
     <!-- CSS -->
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/room.css">
     <link rel="stylesheet" href="./styles/modal.css">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
-    <title>Rocketq - Perguntas e Respostas</title>
 </head>
 
     <body>
@@ -20,18 +22,18 @@
             <!-- Menu -->
            <header class="header-room">
                <a href="./index.html">
-                <img src="./assets/Logo.svg" alt="Logo">
+                <img src="./images/Logo.svg" alt="Logo">
                </a>
                
                <!-- Buttons-->
                <div class="buttons">
                     <div class="button outlined">
                         #323243
-                        <img src="./assets/icon-copy.svg" alt="Copiar numero da sala">
+                        <img src="./images/icon-copy.svg" alt="Copiar numero da sala">
                     </div>
 
                     <a href="./" class="button">
-                        <img src="./assets/avatar-usuarios-branco.svg" alt="Criar uma sala">
+                        <img src="./images/avatar-usuarios-branco.svg" alt="Criar uma sala">
                         Criar Sala
                     </a>
                </div>
@@ -47,7 +49,7 @@
 
                         <footer>
                             <div>
-                                <img src="./assets/Icon-lock-24dp.svg" alt="Cadeado">
+                                <img src="./images/Icon-lock-24dp.svg" alt="Cadeado">
                                 Essa pergunta é anônima
                             </div>
                             <button>Enviar</button>
@@ -64,18 +66,18 @@
                     <div class="question-wrapper">
                         <div class="question-content">
                             <div class="user">
-                                <img src="./assets/user.svg" alt="Avatar comentarios">
+                                <img src="./images/user.svg" alt="Avatar comentarios">
                             </div>
                             <div class="question">
                                 <p>Qual a diferença entre const, var e let no Javascript?</p>
                             </div>
                         </div>
                         <div class="actions">
-                            <a href="" class="check">
-                                <img src="./assets/check.svg" alt="Marcar como lida">
+                            <a href="#" class="check">
+                                <img src="./images/check.svg" alt="Marcar como lida">
                                 Marcar como lida
                             <a href="" class="delete">
-                                <img src="./assets/trash.svg" alt="Excluir">
+                                <img src="./images/trash.svg" alt="Excluir">
                                 Excluir
                             </a>
                         </div>
@@ -84,18 +86,18 @@
                     <div class="question-wrapper">
                         <div class="question-content">
                             <div class="user">
-                                <img src="./assets/user.svg" alt="Avatar comentarios">
+                                <img src="./images/user.svg" alt="Avatar comentarios">
                             </div>
                             <div class="question">
                                 <p>O que é Typescript?</p>
                             </div>
                         </div>
                         <div class="actions">
-                            <a href="" class="check">
-                                <img src="./assets/check.svg" alt="Marcar como lida">
+                            <a href="#" class="check">
+                                <img src="./images/check.svg" alt="Marcar como lida">
                                 Marcar como lida
                             <a href="" class="delete">
-                                <img src="./assets/trash.svg" alt="Excluir">
+                                <img src="./images/trash.svg" alt="Excluir">
                                 Excluir
                             </a>
                         </div>
@@ -104,18 +106,18 @@
                     <div class="question-wrapper">
                         <div class="question-content">
                             <div class="user">
-                                <img src="./assets/user.svg" alt="Avatar comentarios">
+                                <img src="./images/user.svg" alt="Avatar comentarios">
                             </div>
                             <div class="question">
                                 <p>Você já sabe quais as bases você precisa melhorar para alcançar o seu próximo nível? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eligendi, minima sint commodi iste molestias aut voluptatibus natus quidem voluptates laboriosam ipsam fugit, vitae cupiditate debitis odio blanditiis nihil placeat?</p>
                             </div>
                         </div>
                         <div class="actions">
-                            <a href="" class="check">
-                                <img src="./assets/check.svg" alt="Marcar como lida">
+                            <a href="#" class="check">
+                                <img src="./images/check.svg" alt="Marcar como lida">
                                 Marcar como lida
                             <a href="" class="delete">
-                                <img src="./assets/trash.svg" alt="Excluir">
+                                <img src="./images/trash.svg" alt="Excluir">
                                 Excluir
                             </a>
                         </div>
@@ -124,7 +126,7 @@
                     <div class="question-wrapper read">
                         <div class="question-content">
                             <div class="user">
-                                <img src="./assets/user.svg" alt="Avatar comentarios">
+                                <img src="./images/user.svg" alt="Avatar comentarios">
                             </div>
                             <div class="question">
                                 <p>O que é Javascript?</p>
@@ -133,7 +135,7 @@
                         <div class="actions">
                             
                             <a href="" class="delete">
-                                <img src="./assets/trash.svg" alt="Excluir">
+                                <img src="./images/trash.svg" alt="Excluir">
                                 Excluir
                             </a>
                         </div>
@@ -144,9 +146,10 @@
            </main>
         </div>
 
+
          <!-- Modal excluir pergunta -->
 
-         <div class="modal-wrapper active">
+         <div class="modal-wrapper">
              <div class="modal">
                  <h2>Excluir pergunta</h2>
                  <p>Tem certeza que você deseja excluir esta pergunta?</p>
@@ -158,11 +161,14 @@
                  </fieldset>
 
                  <div class="buttons">
-                     <div class="button grey">Cancelar</div>
+                     <div class="button grey cancel">Cancelar</div>
                      <button class="red">Sim, excluir</button>
                  </div>
              </div>
          </div>
         
+
+          <!-- Links do arquivos javascript-->
+        <script src="scripts/main.js" defer type="module"></script>
     </body>
 </html>

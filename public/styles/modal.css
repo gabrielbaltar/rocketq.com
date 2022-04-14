@@ -1,10 +1,5 @@
 /* Modal, excluir pergunta */ 
 
-.modal-wrapper.active {
-    opacity: 100%;
-    visibility: visible;
-}
-
 .modal-wrapper {
     position: fixed;
     width: 100vw;
@@ -14,7 +9,7 @@
     display: flex;
     background: rgba(4, 9, 17, 0.8);
     visibility: hidden;
-    opacity: 0;
+    opacity: 100%;
 
 }
 
@@ -27,6 +22,11 @@
     font-family: 'Poppins';
     text-align: center;
     padding: 5.5rem;
+}
+
+.modal-wrapper.active {
+    opacity: 100%;
+    visibility: visible;
 }
 
 /* 36.875rem */
