@@ -1,0 +1,32 @@
+/* Modal, excluir pergunta */ 
+
+.modal-wrapper.active {
+    opacity: 100%;
+    visibility: visible;
+}
+
+.modal-wrapper {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    background: rgba(4, 9, 17, 0.8);
+    visibility: hidden;
+    opacity: 0;
+
+}
+
+.modal-wrapper .modal {
+    width: min(590px, 90%);
+    height: 362px;
+    background: var(--white);
+    margin: auto;
+    border-radius: 0.5rem;
+    font-family: 'Poppins';
+    text-align: center;
+    padding: 5.5rem;
+}
+
+/* 36.875rem */
