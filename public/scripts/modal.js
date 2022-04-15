@@ -1,8 +1,10 @@
 // Função que será para abrir e fechar o modal de excluir pergunta 
-
 export default function Modal(){
-
+    
+    
     const cancelButton = document.querySelector(".button.cancel");
+
+    cancelButton.addEventListener('click', close);
 
     function open(){
 
@@ -10,7 +12,6 @@ export default function Modal(){
         document.querySelector('.modal-wrapper').classList.add("active");
 
     };
-
     
     function close(){
 
@@ -23,6 +24,7 @@ export default function Modal(){
         open,
         close
     }
+
     
 }
 

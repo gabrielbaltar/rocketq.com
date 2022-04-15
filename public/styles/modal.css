@@ -1,4 +1,8 @@
 /* Modal, excluir pergunta */ 
+.modal-wrapper.active {
+    opacity: 100%;
+    visibility: visible;
+}
 
 .modal-wrapper {
     position: fixed;
@@ -9,7 +13,7 @@
     display: flex;
     background: rgba(4, 9, 17, 0.8);
     visibility: hidden;
-    opacity: 100%;
+    opacity: 0;
 
 }
 
@@ -23,10 +27,3 @@
     text-align: center;
     padding: 5.5rem;
 }
-
-.modal-wrapper.active {
-    opacity: 100%;
-    visibility: visible;
-}
-
-/* 36.875rem */
