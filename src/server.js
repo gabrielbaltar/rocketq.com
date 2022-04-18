@@ -20,6 +20,10 @@ server.use(express.static('public'));
 
 server.set('views', path.join(__dirname, 'views'));
 
+// Criando Middleware da rota senhas
+
+server.use(express.urlencoded({extended: true}));
+
 // Declarando o arquivo rotas 
 
 server.use(route);
