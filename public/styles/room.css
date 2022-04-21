@@ -180,3 +180,26 @@
     margin-bottom: 4rem;
     outline: none;
 }
+
+.no-questions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.25rem;
+}
+
+.no-questions #title{
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Poppins';
+    margin-bottom: 13px;
+}
+
+.no-questions #text {
+    width: 34ch;
+    text-align: center;
+    line-height: 1.5;
+    color: var(--grey-dark);
+}
