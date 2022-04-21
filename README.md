@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Rocket.Q" title="Rocket.Q" src=".github/rocketq.png" width="220px" />
+  <img alt="Rocket.Q" title="Rocket.Q" src=".github/logo.svg" width="220px" />
 </h1>
 
 <p align="center">
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
- <img src=".github/logo.svg" alt="PRs welcome!" />
+ <img src="./images/" alt="PRs welcome!" />
 
   <img alt="License" src="./">
 </p>
