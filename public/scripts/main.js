@@ -1,6 +1,6 @@
 import Modal from './modal.js';
 
-const modal = Modal();
+const modal = Modal()
 
 // Selecionar os h1 p do modal para mudar sua extrutura com Javascript 
 const modalTitle = document.querySelector('.modal h2');
@@ -22,10 +22,8 @@ checkButtons.forEach(button => {
 const deleteButton = document.querySelectorAll(".actions a.delete");
 
 deleteButton.forEach(button => {
-
     // Adicionar a escuta quando econtecer o click
-    button.addEventListener("click", () => handleClick(event, false));
-
+    button.addEventListener("click", (event) => handleClick(event, false));
 });
 
 function handleClick(event, check = true) {
@@ -48,7 +46,7 @@ function handleClick(event, check = true) {
     modalDescription.innerHTML = `Tem certeza que deseja ${text.toLocaleLowerCase()} esta pergunta?`;
     modalButton.innerHTML = `Sim, ${text.toLocaleLowerCase()}`
 
-    check ? modalButton.classList.remove('red') : modalButton.classList.add('red');
+    check ? modalButton.classList.remove("red") : modalButton.classList.add("red");
  
     // Chamando a função de abrir modal
     modal.open();
