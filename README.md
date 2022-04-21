@@ -3,10 +3,9 @@
 </h1>
 
 <p align="center">
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-license">License</a>
 </p>
 <br>
 
@@ -43,4 +42,4 @@ Baixe esse repositório e no terminal de sua máquina entre no diretório (pasta
 
 ## 🔖 Layout
 
-Link para acessar o layout no figma [this link](https://www.figma.com/community/file/1009821158959690135).
+Link para acessar o layout no figma [Link do projeto](https://www.figma.com/community/file/1009821158959690135).
