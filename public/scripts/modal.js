@@ -16,7 +16,7 @@ export default function Modal(){
     function close(){
 
         // Funcionalidade que irá removar a classe active do modal
-        modalWrapper .classList.remove("active");
+        modalWrapper.classList.remove("active");
 
     }
 
